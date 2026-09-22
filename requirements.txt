@@ -1,0 +1,9 @@
+pymupdf
+pdfplumber
+pytesseract
+pillow
+pydantic>=2.0
+groq
+chromadb
+streamlit
+python-dotenv

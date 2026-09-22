@@ -1,0 +1,24 @@
+# Environment variables (contains your real API key - never commit this)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Local data (SQLite DB, ChromaDB store, uploaded files)
+data/*.db
+data/chroma/
+data/uploads/*
+!data/uploads/.gitkeep
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
